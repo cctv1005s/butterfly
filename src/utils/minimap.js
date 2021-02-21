@@ -1,5 +1,6 @@
-const _ = require('lodash');
-const $ = require('jquery');
+import _ from 'lodash';
+import $ from 'jquery';
+
 // 每一个dot是一个圆形或者
 const DOT_COLOR = 'rgba(246, 105, 2, 1)';
 const GROUP_COLOR = 'rgba(61, 86, 92, 1)';

@@ -1,6 +1,6 @@
 'use strict';
 
-const _ = require('lodash');
+import _ from 'lodash';
 
 // 检验scope是否匹配
 export default (scope1, scope2, isScopeStrict) => {

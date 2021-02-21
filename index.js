@@ -1,7 +1,5 @@
 'use strict';
 
-const _ = require('lodash');
-
 import Canvas from './src/canvas/baseCanvas';
 import TreeCanvas from './src/canvas/treeCanvas';
 import Edge from './src/edge/baseEdge';
@@ -12,9 +10,10 @@ import TreeNode from './src/node/treeNode';
 import Minimap from './src/utils/minimap';
 import Tips from './src/utils/toolTip';
 import Layout from './src/utils/layout/layout';
+
 import './src/index.less';
 
-module.exports = {
+export {
   Canvas,
   TreeCanvas,
   Edge,
@@ -25,4 +24,4 @@ module.exports = {
   Minimap,
   Tips,
   Layout
-};
+}

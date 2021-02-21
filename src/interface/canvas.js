@@ -1,6 +1,6 @@
 'use strict';
 
-const EventEmit3 = require('eventemitter3');
+import EventEmit3 from 'eventemitter3';
 
 class Canvas extends EventEmit3 {
   constructor() {

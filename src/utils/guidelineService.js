@@ -1,7 +1,7 @@
 'use strict';
 
-const $ = require('jquery');
-const _ = require('lodash');
+import _ from 'lodash';
+import $ from 'jquery';
 
 class GuidelineService {
   constructor(opts) {

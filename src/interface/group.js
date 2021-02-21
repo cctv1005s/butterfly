@@ -1,7 +1,6 @@
 'use strict';
 
-const EventEmit3 = require('eventemitter3');
-
+import EventEmit3 from 'eventemitter3';
 class Group extends EventEmit3 {
   constructor() {
     // id        节点唯一标志

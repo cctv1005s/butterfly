@@ -1,8 +1,9 @@
 'use strict';
 
+import $ from 'jquery';
+
 import './toolTip.less';
 
-const $ = require('jquery');
 
 const DEFUALT = {
   TEMPLATE:

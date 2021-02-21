@@ -11,14 +11,13 @@ import pkg from './package.json';
 
 const config = {
   presets: [
-    '@babel/preset-react',
     '@babel/preset-env'
   ],
   plugins: [
-    '@babel/plugin-proposal-class-properties'
+    '@babel/plugin-proposal-class-properties',
+    '@babel/plugin-proposal-object-rest-spread'
   ]
 };
-
 
 const plugins = [
   extensions({
@@ -48,7 +47,6 @@ const plugins = [
   url({
     limit: 100 * 1024, // inline files < 100k, copy files > 100k
     include: ["**/*.svg", "**/*.eot", "**/*.tff", "**/*.woff", "**/*.woff2"], // defaults to .svg, .png, .jpg and .gif files
-    emitFiles: true // defaults to true
   })
 ];
 
@@ -58,6 +56,11 @@ const rollupCfg = [];
 rollupCfg.push({
   input: path.join(__dirname, 'index.js'),
   output: [
+    {
+      file: pkg.main,
+      format: 'cjs',
+      sourcemap: true,
+    },  
     {
       file: pkg.pack,
       format: 'cjs',

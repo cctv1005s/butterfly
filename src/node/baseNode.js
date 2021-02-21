@@ -1,5 +1,5 @@
-const $ = require('jquery');
-const _ = require('lodash');
+import _ from 'lodash';
+import $ from 'jquery';
 
 import Node from '../interface/node';
 import Endpoint from '../endpoint/baseEndpoint';

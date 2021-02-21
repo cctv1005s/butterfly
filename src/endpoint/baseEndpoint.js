@@ -1,7 +1,5 @@
-
-
-const $ = require('jquery');
-const _ = require('lodash');
+import _ from 'lodash';
+import $ from 'jquery';
 
 import './baseEndpoint.less';
 

@@ -1,7 +1,7 @@
 'use strict';
 
-const _ = require('lodash');
-const $ = require('jquery');
+import _ from 'lodash';
+import $ from 'jquery';
 import DrawUtil from '../utils/link';
 import ArrowUtil from '../utils/arrow';
 import LinkAnimateUtil from '../utils/link_animate'

@@ -1,6 +1,6 @@
 'use strict';
 
-const EventEmit3 = require('eventemitter3');
+import EventEmit3 from 'eventemitter3';
 
 class Edge extends EventEmit3 {
   constructor() {

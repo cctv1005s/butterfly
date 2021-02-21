@@ -1,9 +1,7 @@
 'use strict';
 
-import './baseGroup.less';
-
-const $ = require('jquery');
-const _ = require('lodash');
+import _ from 'lodash';
+import $ from 'jquery';
 
 import Group from '../interface/group';
 import Endpoint from '../endpoint/baseEndpoint';
@@ -11,6 +9,7 @@ import Endpoint from '../endpoint/baseEndpoint';
 // scope的比较
 import ScopeCompare from '../utils/scopeCompare';
 
+import './baseGroup.less';
 class BaseGroup extends Group {
   constructor(opts) {
     super(opts);

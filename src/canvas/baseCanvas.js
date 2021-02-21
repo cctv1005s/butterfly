@@ -1,8 +1,8 @@
 'use strict';
 
-const $ = require('jquery');
-const _ = require('lodash');
-const domtoimage = require('dom-to-image');
+import $ from 'jquery';
+import _ from 'lodash';
+import domtoimage from 'dom-to-image';
 
 import Canvas from "../interface/canvas";
 import Node from '../node/baseNode';
