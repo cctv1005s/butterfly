@@ -179,7 +179,7 @@ removeEndpoint = (string) => {}
 getEndpoint = (id, type) => {}
 ```
 
-### node.moveTo (obj)
+### node.moveTo (x, y)
 
 *作用*： 节点移动坐标的方法
 
@@ -189,7 +189,7 @@ getEndpoint = (id, type) => {}
 * `{number} y `移动位置的y坐标
 
 ```js
-moveTo = (obj) => {}
+moveTo = (x, y) => {}
 ```
 
 ### node.remove ()
